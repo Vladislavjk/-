@@ -1,0 +1,11 @@
+commit 203f5580eb396744934d98e7381784ca11dd376c (HEAD -> master)
+Author: Vladislavjk <sergvladjk@gmail.com>
+Date:   Wed Feb 10 15:15:56 2021 +0300
+
+    add status.txt
+
+commit e253b24ab443d3caf6c73a127a4f4145c4e1024f
+Author: Vladislavjk <sergvladjk@gmail.com>
+Date:   Wed Feb 10 15:13:54 2021 +0300
+
+    add .gitignore
