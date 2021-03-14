@@ -1,0 +1,259 @@
+body {
+    background-color: #f2f2f2;
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Raleway;
+    font-weight: 300
+}
+
+h1 {
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #ebe8f6;
+    font-size: 50px
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px
+}
+
+.centered {
+    text-align: center
+}
+
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+    transition: color .1s ease-in, background .1s ease-in
+}
+
+a:focus, a:hover {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0
+}
+
+a:after, a:before {
+    transition: color .1s ease-in, background .1s ease-in
+}
+
+.form {
+    background: #dfdfdf;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(158, 149, 149);
+    font-family: Lato;
+    font-size: 30px
+}
+
+.lowerButton {
+    position: relative;
+    left: 46.2%;
+    transform: translate(-50%, 0);
+}
+
+.mainForm {
+    padding-bottom: 130px;
+    border: 0
+}
+
+.default {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 20px;
+    color: #ebe8f6
+}
+
+a.button7 {
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: #40c781;
+    box-shadow: 0 -3px #35a76e inset;
+    transition: .2s
+}
+
+a.button7:hover {
+    background: #35a76e
+}
+
+a.button7:active {
+    background: #21935a;
+    box-shadow: 0 3px #21935a inset
+}
+
+img.right {
+    float: right;
+    margin-left: 5px
+}
+
+input[type=text] {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    background: #fff!important;
+    outline: 0;
+    height: 50px;
+    width: 400px;
+    color: #1c1c19;
+    font-size: 20px;
+    font-family: Raleway
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px
+}
+
+.navbar-inverse {
+    background: #2d2d2d;
+    border-color: #2d2d2d
+}
+
+#headerwrap {
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+}
+
+#headerwrap h1 {
+    margin-top: 100px;
+    color: #1c1c19;
+    font-size: 70px;
+    font-weight: 300;
+    letter-spacing: 3px
+}
+
+#headerwrap h2 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+@media (max-width:768px) {
+    #headerwrap h1 {
+        font-size: 50px
+    }
+    #headerwrap h2 {
+        font-size: 30px
+    }
+}
+
+#dg {
+    background: #e0e0e0;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center
+}
+
+#dg h4 {
+    font-weight: 700
+}
+
+#f {
+    background: #2d2d2d;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+#f i {
+    color: #bdbdbd;
+    font-size: 30px;
+    padding: 20px
+}
+
+#f i:hover {
+    color: #ff7878
+}
+
+.w {
+    padding-top: 35px
+}
+
+.w h4 {
+    font-weight: 700
+}
+
+.w i {
+    color: #ff7878;
+    font-size: 30px
+}
+
+.contact-form {
+    text-align: left;
+    padding: 0 15px
+}
+
+.contact-form input {
+    padding: 10px 12px;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 14px;
+    height: auto
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        -webkit-transform: rotate(0);
+        transform: rotate(0)
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg)
+    }
+}
+
+#copyrights {
+    background: #222;
+    padding: 20px 0;
+    text-align: center;
+    color: #fff
+}
+
+#copyrights p {
+    margin-bottom: 5px
+}
+
+.credits {
+    color: #999
+}
